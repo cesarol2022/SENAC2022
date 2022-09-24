@@ -9,4 +9,4 @@ quadrados.
 larg=float(input('Largura da parede:' ))
 alt=float(input('Altura da parede:'))
 area = larg * alt
-print('Sua parede tem a dimensao de {} * {} e sua area e de {:.2f} m2.'.format)
+print('Sua parede tem a dimensão de altura:',alt,'e sua area é de :',area,'m2.')
