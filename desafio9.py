@@ -1,13 +1,8 @@
-'''Crie um algoritmoque leia um numero real e mostre na tela o seu dobro e a
-sua terca parte.'''
+'''
+Faça um algoritmo que leia quanto dinheiro uma pessoa tem na
+carteira (em R$) e mostre quantos dólares ela pode comprar. 
+Considere US$1,00 = R$3,45.
 
-'''Ex:
-    Digite um numero: 3.5
-    O dobro de 3.5 e 7.0
-    A terca parte de 3.5 e 1.16666
-    '''
-numero= float(input('Informe o numero: '), )
-dobro= numero*2
-tercaparte= numero/3
-print (('O dobro desse numero e: '), dobro)
-print (('A terca parte deste numero e: '), tercaparte)
+'''
+quant_em_real= float(input('Informe o numero: '), )
+print (('A quantidade de dólares que pode comprar é: US$'),(quant_em_real/3.45))
