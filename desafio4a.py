@@ -1,5 +1,0 @@
-valor= input('Ola vamos somar?! Digite um numero ')
-valorsoma= input('Muito bom Agora vamos somar ele com outro numero, digite mais um ')
-print('carregando...')
-soma = int(valor) + int(valorsoma)
-print('o resultado e', soma)
