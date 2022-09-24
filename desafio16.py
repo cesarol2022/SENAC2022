@@ -7,8 +7,8 @@ ded vida a cada cigarro.
 Calcule quantos dias de vida um fumante perdera e exiba o total 
 em dias.
 
-Ex: 6 cigarros por hora perde 1 hora de vida. Então 6 vezes 24 horas são 144
-cigarros que fazem o fumante perder 1 dia de vida.
+Ex: 6 cigarros por hora perde 1 hora de vida. Então 6 vezes 24 horas 
+fazem o total de 144 cigarros que faz o fumante perder 1 dia de vida.
 1 ano são 365 dias.
 '''
 cigarrosdia=float(input('Qual a quantidade de cigarros fumados por dia? '))
