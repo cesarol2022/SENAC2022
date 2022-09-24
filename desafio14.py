@@ -8,4 +8,4 @@ por Km rodado.'''
 
 dias=float(input('qual a quantidade de dias?'))
 km=float(input('Qual a quilometragem? '))
-print('O valor total do aluguel e R$:', ((dias*90)+(km*0.20)))
+print('O valor total do aluguel é: R$',((dias*90)+(km*0.20)))
