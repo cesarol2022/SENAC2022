@@ -9,5 +9,5 @@ alt = float(input('Altura da parede:'))
 area = (larg * alt)
 lataTinta = area / 2
 print('Sua parede tem a dimensão de altura:',
-      alt, 'e sua area é de :', area, 'm2.')
+      alt,'m', 'e sua area é de :', area,'m².')
 print('Voce vai precisar {:.2f} latas de tinta'.format(lataTinta))
