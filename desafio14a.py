@@ -12,4 +12,4 @@ km = float(input('Qual a quilometragem?'))
 precokm = 0.20*km
 precodia = 90*dias
 valor = precodia+precokm
-print('O valor total do aluguel é de {} reais'.format(valor))
+print('O valor total do aluguel é de {:.2f} reais'.format(valor))
