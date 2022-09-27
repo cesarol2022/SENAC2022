@@ -13,7 +13,8 @@ Com o uso do comando format.
 
 '''
 numero= float(input('Informe a distância em metros: '), )
-print('A distancia {:.f} decorreponde a:',format(numero))
+
+print('A distancia {:.f} que corresponde a:',format(numero))
 print((numero/1000),('Km'),'                ',(numero*10),('dm'))
 print((numero/100),('Hm'),'                 ',(numero*100),('cm'))
 print((numero/10),('Dam'),'                ',(numero*1000),('mm'))
