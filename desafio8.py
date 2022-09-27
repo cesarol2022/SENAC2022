@@ -12,7 +12,7 @@ A distância de 185.72m corresponde a:
 
 '''
 numero= float(input('Informe a distância em metros: '), )
-print('A distancia de',numero,'correponde a:')
+print('A distancia de',numero,'corresponde a:')
 print((numero/1000),('Km'),'                ',(numero*10),('dm'))
 print((numero/100),('Hm'),'                 ',(numero*100),('cm'))
 print((numero/10),('Dam'),'                ',(numero*1000),('mm'))
