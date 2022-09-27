@@ -20,7 +20,7 @@ n4=numero*10
 n5=numero*100
 n6=numero*1000
 
-print('A distância em quilomêtro:',format(n1),'Km','                ','A distância em decímetros:',format(n4),'dm')
-print('A distância em hectomêtros:',format(n2),'Hm','                ','A distância em centímetros:',format(n5),'cm')
-print('A distância em decimêtros:',format(n3),'Dam','              ','A distância em milímetros:',format(n6),('mm'))
+print('A distância em quilomêtro: {:.3f}'.format(n1),'Km','                ','A distância em decímetros: {:.0f}'.format(n4),'dm')
+print('A distância em hectomêtros: {:.3f}'.format(n2),'Hm','                ','A distância em centímetros: {:.0f}'.format(n5),'cm')
+print('A distância em decimêtros: {:.3f}'.format(n3),'Dam','              ','A distância em milímetros: {:.0f}'.format(n6),('mm'))
 
